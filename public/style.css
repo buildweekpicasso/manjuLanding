@@ -35,3 +35,77 @@ input {
   border-radius: 4px;
   background-color: #f1f1f1;
 }
+
+.img1{
+    width:295px;
+}
+
+.img2{
+    width:300px;
+    
+}
+
+.img3{
+    width:305px;
+}
+
+.about{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:20px;
+    background-color: #112233;
+    
+}
+
+/* for mobile responsive */
+
+@media(max-width:500px) {
+    .container {
+        background: gray;
+        width:100%
+    }
+}
+
+@media(max-width:500px) {
+    .header2 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:500px) {
+    .header2 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:500px) {
+    .respbutton {
+        margin-right:150px;
+    }
+}
+
+@media(max-width:500px) {
+    .input {
+       width:65%; 
+    }
+}
+
+@media(max-width:500px) {
+    .img1 {
+        display:none;
+    }
+}
+
+@media(max-width:500px) {
+    .img2 {
+        display:none;
+        
+    }
+}
+
+@media(max-width:500px) {
+    .img3 {
+        width:100%
+        
+    }
+}
