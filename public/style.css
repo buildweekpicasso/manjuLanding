@@ -1,6 +1,7 @@
 body {
 
 background-color:#EEEEEE;
+
 }
 
 h1{
@@ -8,4 +9,29 @@ h1{
     font-family: 'Damion', cursive;
     font-size: 100px;
 
+}
+
+.backgroundimg{
+    opacity: 0.5;
+    width:100%
+  
+   
+}
+
+.context{
+    text-align: center;  
+    margin-top:250px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+input {
+    width: 30%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
 }
