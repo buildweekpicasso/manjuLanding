@@ -1,5 +1,6 @@
 body {
     background-color: #EEEEEE;
+    
 }
 
 h1 {
@@ -76,6 +77,53 @@ input {
     margin-top: 50px;
     width: 50%
 }
+
+
+.aboutbody{
+    background-image: url(backgroundimg.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    opacity:0.8;
+}
+
+.parabout{
+    margin-top:300px;
+    margin-left:400px;
+    color: black;
+    
+}
+
+.paragraphabout{
+    color: black;
+    
+}
+
+.aboutus{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
+
+.aboutimg{
+    border-radius: 60%;
+}
+
+
+.aboutimg2{
+    width:200px;
+    height:250px;
+}
+
+
+h1.aboutnav{
+    color :#EEEEEE; 
+}
+
+
 
 /* for mobile responsive */
 
