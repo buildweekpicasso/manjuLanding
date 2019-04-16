@@ -1,71 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-   
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="https://fonts.googleapis.com/css?family=Damion|Montserrat:400,700" rel="stylesheet">
-    <title>Picasso</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body class = "container">
-    <header>
-    <nav class = "navbar nav-bar-expand-md navbar-light black sticky-top">
-      <div class = "container-fluid">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title>Picasso</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Damion|Montserrat:400,700" rel="stylesheet">
+</head>
+
+<body class="container">
+  <header>
+    <nav class="navbar nav-bar-expand-md navbar-light black sticky-top container-fluid">
+      <div class="container-fluid">
         <a>
-          <h1>Picasso</h1> 
+          <h1>Picasso</h1>
         </a>
-        <div  id = "navbarResponsive">
+        <div class=" explore" id="navbarResponsive">
           <ul>
-             <a class = "anchor">About</a>
-              <a>Contact US</a>
-              <button class="btn btn-danger respbutton" type="button">Sign In</button>
-          
+            <a class="anchor">About</a>
+            <a>Contact US</a>
+            <a class="button" href='https://picasso-frontend.netlify.com/signup'> <button
+                class="btn btn-danger respbutton" type="button">Sign In</button></a>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-   
-    
 
-    <div class = "carousel-inner">
-        <div class = "carousel-item active ">
-          <img class = "backgroundimg" src = "background.jpg">
-        </div>
-        <div class = "carousel captain context">
-          <h2 class = "header2">Sign Up to get your perfect<br> Picazzo portait for free</h2>
-          <input class = "input" type="text" name="firstname" value="Email">
-          <button class="btn btn-danger">Sign Up</button>
-        </div>
-      </div>
-     
-      <div class = "about">
-        <div>
-          <img class="https://www.paulmccartney.com/sites/default/files/ArtForum/August2015/Picasso/picasso%20-seated%20woman.jpg">
-        <img class ="img1" src = "https://cdn.jamanetwork.com/ama/content_public/journal/faci/5657/qbe80005fa.png?Expires=2147483647&Signature=ynX3fpGWFYvoSpw~iB6Rz9XgESLbeQRm1IPQPjqeb4FRenSkvHHmAChLZNRWjcmAHKEJRAMZUHT~vAmoJ3o8QyvYQVyxozmPMGUneVVXoH70KwE2u1QqeNzYxA5n9L2CqX7CgNgsPl1nDTtgqwzsw5Qzi1FVFfL8lx8bZhg5sAWEKRnbraU71Avuc92FxauBnz0okJ81XuTC2Ar5mjx7jwHUQ8hDq~zzTc7gtwE4ZjV0DzvwcAu1D3zUMTDwaF2nlkrhzCDPvNNM8uxThFdsy3SyiOAIS1SK5FpBXyuXbziUsZMycYJC2lU6PBIR5Aqdy3eQ8b~WABuaDtamnEpS3Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA">
-       </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+      <img class="backgroundimg" src="background.jpg">
+    </div>
+    <div class="carousel captain context">
+      <h2 class="header2">Sign Up to get your perfect<br> Picazzo portait for free</h2>
+      <form action='https://picasso-frontend.netlify.com/signup'>
+        <input class="input" type="email" name="email" placeholder="Email">
+        <button class="btn btn-danger btn-lg">Sign Up</button>
+      </form>
+    </div>
+  </div>
 
-       <div>
-        <img class = "img2"src="https://i.pinimg.com/originals/b2/bc/16/b2bc16cd73fc31efa529555809543ea2.jpg">
-      </div>
+  <div class="about">
+    <div>
+      <img
+        class="https://www.paulmccartney.com/sites/default/files/ArtForum/August2015/Picasso/picasso%20-seated%20woman.jpg">
+      <img class="img1"
+        src="https://cdn.jamanetwork.com/ama/content_public/journal/faci/5657/qbe80005fa.png?Expires=2147483647&Signature=ynX3fpGWFYvoSpw~iB6Rz9XgESLbeQRm1IPQPjqeb4FRenSkvHHmAChLZNRWjcmAHKEJRAMZUHT~vAmoJ3o8QyvYQVyxozmPMGUneVVXoH70KwE2u1QqeNzYxA5n9L2CqX7CgNgsPl1nDTtgqwzsw5Qzi1FVFfL8lx8bZhg5sAWEKRnbraU71Avuc92FxauBnz0okJ81XuTC2Ar5mjx7jwHUQ8hDq~zzTc7gtwE4ZjV0DzvwcAu1D3zUMTDwaF2nlkrhzCDPvNNM8uxThFdsy3SyiOAIS1SK5FpBXyuXbziUsZMycYJC2lU6PBIR5Aqdy3eQ8b~WABuaDtamnEpS3Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA">
+    </div>
 
-      <div>
-        <img  class = "img3" src = "https://i.pinimg.com/originals/8b/22/73/8b2273afb4e6115008b7d7b6a47a745b.jpg">
-      </div>
-      </div>
+    <div>
+      <img class="img2" src="https://i.pinimg.com/originals/b2/bc/16/b2bc16cd73fc31efa529555809543ea2.jpg">
+    </div>
 
-      <div class = "first-row">
-        <div>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
-        <div>
-          <img src = "http://www.artyfactory.com/art_appreciation/animals_in_art/pablo_picasso/picasso_bull_plate_6.jpg">
-      </div>
-      </div>
+    <div>
+      <img class="img3" src="https://i.pinimg.com/originals/8b/22/73/8b2273afb4e6115008b7d7b6a47a745b.jpg">
+    </div>
+  </div>
 
-  </body>
+  <div class="first-row">
+    <div class="textcontent">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages,
+        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+
+    <img class="imgclass"
+      src="http://www.artyfactory.com/art_appreciation/animals_in_art/pablo_picasso/picasso_bull_plate_6.jpg">
+
+  </div>
+
+</body>
+
 </html>
