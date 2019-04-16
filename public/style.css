@@ -84,22 +84,19 @@ input {
 
 
 .aboutbody{
-    background-image: url(backgroundimg.jpg);
-    background-repeat: no-repeat;
-    height: 100%;
-    background-size: cover;
+    
     opacity:0.8;
 }
 
 .parabout{
-    margin-top:300px;
+    margin-top:20px;
     margin-left:400px;
-    color: black;
+     color:black
     
 }
 
 .paragraphabout{
-    color: black;
+    color:black;
     font-size: 20px;
     
 }
@@ -123,9 +120,13 @@ input {
     height:250px;
 }
 
+.aboutpara{
+    margin-left:60px;
+}
+
 
 h1.aboutnav{
-    color :#EEEEEE; 
+    color :color;
 }
 
 footer{
@@ -160,7 +161,7 @@ footer{
 /* for mobile responsive */
 @media(max-width:500px) {
     .aboutbody {
-        height: 50%
+        height: 30%
     }
 }
 
