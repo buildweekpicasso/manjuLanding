@@ -1,0 +1,129 @@
+body {
+
+background-color:#EEEEEE;
+
+}
+
+h1{
+    color:#2B2B2B; 
+    font-family: 'Damion', cursive;
+    font-size: 60px;
+
+}
+
+.backgroundimg{
+    opacity: 0.7;
+    width:100%
+  
+   
+}
+
+
+
+.anchor{
+    font-family: 'Montserrat', sans-serif;
+    color:#2B2B2B;
+    padding:15px;
+}
+
+.context{
+    text-align: center;  
+    margin-top:250px;
+    
+}
+
+h2{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+input {
+    width: 30%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+.img1{
+    width:295px;
+}
+
+.img2{
+    width:300px;
+    
+}
+
+.img3{
+    width:305px;
+}
+
+.about{
+    display:flex;
+    justify-content: space-evenly;
+    padding:10px;
+    background-color: #112233;
+    
+}
+
+.first-row{
+    padding:20px;
+    background-color:#AA2233;
+    display:flex;
+}
+
+/* for mobile responsive */
+
+@media(max-width:500px) {
+    .container {
+        background: gray;
+        width:100%
+    }
+}
+
+@media(max-width:500px) {
+    .header2 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:500px) {
+    .header2 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:500px) {
+    .respbutton {
+        margin-right:150px;
+    }
+}
+
+@media(max-width:500px) {
+    .input {
+       width:65%; 
+    }
+}
+
+@media(max-width:500px) {
+    .img1 {
+        display:none;
+    }
+}
+
+@media(max-width:500px) {
+    .img2 {
+        display:none;
+        
+    }
+}
+
+@media(max-width:500px) {
+    .img3 {
+        width: 100%;
+        
+        
+        
+    }
+}
