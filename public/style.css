@@ -9,12 +9,15 @@ h1 {
 }
 
 ul a{
-    color: #2B2B2B;
-    font-size:18px;
+    color: black;
+    font-size:20px;
+    margin-left:10px;
+
+    
 }
 
 .backgroundimg {
-    opacity: 0.7;
+    opacity: 0.8;
     width: 100%
 }
 
@@ -58,7 +61,7 @@ input {
 .about {
     display: flex;
     justify-content: space-evenly;
-    opacity: 0.8;
+    opacity: 0.9;
     padding: 10px;
     background-color: #112233;
 }
@@ -85,9 +88,7 @@ input {
 }
 
 
-.aboutbody{
-   background-color:
-}
+
 
 .parabout{
     margin-top:20px;
@@ -115,31 +116,44 @@ input {
     border-radius: 60%;
 }
 
+.imgcontainer{
+ display:flex;
+ flex-direction:row;
+ flex-wrap:wrap;
+
+}
 
 .aboutimg2{
-    width:250px;
-    height:250px;
+    width:150px;
+    height:150px;
     border: 2px solid grey;
+    margin-left:100px;
 }
 
 .aboutpara{
-    margin-left:60px;
+    margin-left:100px;
 }
 
 .aboutinput{
     background-color:white; 
+    width:250px;
+}
+
+.mainheader{
+color :#AA2233;
 }
 
 
 h1.aboutnav{
-    color: #2B2B2B;
+    color:#2B2B2B;
 }
 
 footer{
     text-align: center;
     margin-right:10px;
     background-color:#2B2B2B;
-    width:100%
+    width:100%;
+    margin-top: 20px;
 }
 .wrapper {
     display: inline-flex;
@@ -170,14 +184,46 @@ footer{
     
   }
 
+.header2{
+    color:#EEEEEE;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
   .aboutheader2{
       font-size:30px;
+  }
+
+  .channgeimg1{
+      width:210px;
+      height: 210px;
+     margin:5px;  
+  }
+
+  .changedimg{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+  }
+
+  .artistich2{
+      font-size: 40px;
+      margin-top: 20px;
+      margin-left:280px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 
 /* for mobile responsive */
 @media(max-width:500px) {
     .aboutform {
         display:none;
+    }
+}
+
+@media(max-width:500px) {
+    .aboutimg2 {
+        height:250px;
+        width:250px;
+        margin-left:10px;
     }
 }
 
