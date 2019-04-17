@@ -1,6 +1,11 @@
-.mainpart {
+.mainpart  {
     background-color: #EEEEEE;  
 }
+
+.aboutbody{
+    background-color: #EEEEEE; 
+}
+
 
 h1 {
     color: #2B2B2B;
@@ -27,10 +32,16 @@ ul a{
     padding: 15px;
 }
 
-.context {
+.context1 {
     text-align: center;
-    margin-top: 250px;
+    margin-top: 40px;
 }
+
+.context{
+    margin-top:200px;
+    text-align: center;
+}
+
 
 h2 {
     color: #2B2B2B;
@@ -189,6 +200,11 @@ footer{
       margin-bottom:30px;
     
   }
+ .navbar2{
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4kudteqL0fZmhhdZOUjv51hGYxLdWqg4ONGGb07nIKxosx2bE"); 
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
 
 .header2{
     color:#EEEEEE;
@@ -219,10 +235,14 @@ footer{
   }
 
   .backgroundimg1{
-      height: 500px;
+      /* height: 200px;
       width: 100%;
       border:2px solid green;
-      opacity:0.7;
+      opacity:0.7; */
+      background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 200px;
   }
 .header{
     color:#2B2B2B;
@@ -250,6 +270,8 @@ footer{
 
 .header4{
     text-align: center;
+    font-family: 'Damion', cursive;
+    color:#2B2B2B;
 }
 
 .aboutcontainer{
@@ -275,14 +297,16 @@ footer{
 .aboutform{
     border-radius: 25px;
     text-align: center;
-    background-color:#00BFFF;
-    height:200px;
-    background-size: 150px;
+    background-color:#D6D9AB;
   width: 1000px;
   height: 250px;
-  margin-left: 80px;
+  margin-left: 80px;  
+}
 
-    
+.block{
+    color:black;
+    padding-top: 50px;
+   
 }
 
 /* for mobile responsive */
@@ -292,6 +316,99 @@ footer{
         display:none;
     }
 }
+
+
+@media(max-width:500px) {
+
+    .backgroundimg1 {
+        height:200px;
+        width:100%;
+        margin-top: 150px;
+       
+    }
+}
+
+@media(max-width:500px) {
+
+    .work {
+       font-size:25px;
+       font-family: 'Montserrat', sans-serif;
+       color: #2B2B2B;
+      
+      
+       
+    }
+}
+
+@media(max-width:500px) {
+
+    ul.bottom {
+        height:200px;
+        width:100%;
+        margin-top: 150px;
+        margin-right:70px;
+       
+    }
+}
+
+
+@media(max-width:500px) {
+
+    .aboutheader {
+        font-size: 25px;
+    }
+}
+@media(max-width:500px) {
+
+    .header4 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:500px) {
+
+    .aboutnumber {
+        font-size: 130px;
+        margin-top: 50px;
+        margin-left:0;
+        
+    }
+}
+
+
+@media(max-width:500px) {
+
+    .aboutext {
+       margin-left:10px;
+       padding-left:50px;
+        
+
+
+    }
+}
+
+/* @media(max-width:500px) {
+
+    .aboutform {
+        border-radius: 25px;
+    
+      width: 500px;
+      height: 250px;
+      margin:0; 
+
+    }
+}
+
+@media(max-width:500px) {
+    .block{
+        margin-left:0;
+        color: black
+            
+    }
+} */
+
+
 
 @media(max-width:500px) {
     .second-row{
@@ -320,7 +437,8 @@ footer{
 @media(max-width:500px) {
     ul a {
        font-size:15px;
-       margin-left:0px; 
+       margin-left:5px; 
+      
     }
 }
 
@@ -349,9 +467,18 @@ footer{
 
 @media(max-width:500px) {
     .aboutimg2 {
-        height:250px;
-        width:250px;
-        margin-left:10px;
+        height:150px;
+        width:150px;
+        margin-left:20px;
+
+    }
+}
+
+@media(max-width:500px) {
+    .aboutpara{
+        height:100px;
+        width:100px;
+        margin-left:50px;
     }
 }
 
@@ -359,7 +486,7 @@ footer{
 
 @media(max-width:500px) {
     .aboutbody {
-        height: 30%
+        height:20px;
     }
 }
 
@@ -424,10 +551,13 @@ footer{
 }
 
 @media(max-width:500px) {
-    .context {
-        margin-top:250px;
+    .context1 {
+        margin-top:40px;
+        
     }
 }
+
+
 
 @media(max-width:500px) {
     .button {
@@ -489,3 +619,21 @@ footer{
         
     }
 }
+
+@media(max-width:500px) {
+    .imgclass {
+        margin-left:0px;
+        height: 280px;
+        border:7px solid #2B2B2B
+        
+    }
+}
+@media(max-width:500px) {
+    .imgclass {
+        margin-left:0px;
+        height: 280px;
+        border:7px solid #2B2B2B;
+        
+    }
+}
+
