@@ -1,4 +1,4 @@
-body {
+.mainpart {
     background-color: #EEEEEE;  
 }
 
@@ -76,10 +76,29 @@ input {
 .imgclass {
     /* width: 350px;
     height: 350px; */
-    width:420px;
-    height:380px;
-    border: 3px solid black;
-    margin-left: 90px;
+    width:350px;
+    height:320px;
+    border: 7px solid #2B2B2B;
+    margin-left: 150px;
+}
+
+
+.second-row{
+    display:flex;
+    flex-direction:row;
+}
+
+.imgclass1{
+    width:350px;
+    height:320px;
+    border: 7px solid #2B2B2B;
+}
+
+.textcontent1{
+    margin-left:120px;
+    margin-top:25px;
+    width: 50% 
+   
 }
 
 .textcontent {
@@ -87,15 +106,6 @@ input {
     width: 50%
 }
 
-
-
-
-.parabout{
-    margin-top:20px;
-    margin-left:400px;
-     color:black
-    
-}
 
 .paragraphabout{
     color:black;
@@ -143,10 +153,6 @@ input {
 color :#AA2233;
 }
 
-
-h1.aboutnav{
-    color:#2B2B2B;
-}
 
 footer{
     text-align: center;
@@ -212,10 +218,43 @@ footer{
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 
+  .backgroundimg1{
+      height: 500px;
+      width: 100%;
+      border:2px solid green;
+      opacity:0.7;
+  }
+.header{
+    color:#2B2B2B;
+    font-size: 50px;
+}
+
+.aboutnav{
+    color:#AA2233;
+}
+
 /* for mobile responsive */
 @media(max-width:500px) {
+
     .aboutform {
         display:none;
+    }
+}
+
+@media(max-width:500px) {
+    .second-row{
+        flex-direction:column-reverse;
+        justify-content: center;
+            
+    }
+}
+
+@media(max-width:500px) {
+    .textcontent1{
+        width:100%;
+        margin-left:0;
+        padding:5px;
+            
     }
 }
 
@@ -378,8 +417,8 @@ footer{
 @media(max-width:500px) {
     .img3 {
         width: 100%;
-        height: 200px;
-        background-color: red;
+        height: 350px;
+        border:2px solid grey;
     }
 }
 
@@ -392,8 +431,9 @@ footer{
 
 @media(max-width:500px) {
     .imgclass {
-        margin: 0;
-        height: 250px;
-        width: 100%;
+        margin-left:0px;
+        height: 280px;
+        border:7px solid #2B2B2B
+        
     }
 }
