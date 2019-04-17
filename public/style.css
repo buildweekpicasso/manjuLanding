@@ -220,6 +220,29 @@ footer{
 }
 
 @media(max-width:500px) {
+    .artistich2 {
+        font-size: 30px;
+        width:100%;
+        margin-left:70px;
+
+    }
+}
+@media(max-width:500px) {
+    .channgeimg1{
+        height: 190px;
+        width:190px;
+        margin-left:5px;
+    }
+}
+
+@media(max-width:500px) {
+    .headermb {
+       margin-left: 10px;
+    }
+    
+}
+
+@media(max-width:500px) {
     .aboutimg2 {
         height:250px;
         width:250px;
