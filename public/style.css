@@ -16,7 +16,10 @@ ul a {
     color: black;
     font-size: 20px;
     margin-left: 10px;
+    text-decoration: none !important;
+  
 }
+
 
 .backgroundimg {
     opacity: 0.8;
@@ -75,6 +78,8 @@ input {
     background-image: url("https://upload.wikimedia.org/wikipedia/en/8/8f/Pablo_Picasso%2C_1909-10%2C_Figure_dans_un_Fauteuil_%28Seated_Nude%2C_Femme_nue_assise%29%2C_oil_on_canvas%2C_92.1_x_73_cm%2C_Tate_Modern%2C_London.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 .first-row {
@@ -111,7 +116,7 @@ input {
 }
 
 .textcontent {
-    margin-top: 50px;
+    margin-top:10px;
     width: 50%
 }
 
@@ -143,11 +148,11 @@ input {
     width: 150px;
     height: 150px;
     border: 2px solid grey;
-    margin-left: 100px;
+    margin-left:100px;
 }
 
 .aboutpara {
-    margin-left: 100px;
+    margin-left:120px;
 }
 
 .aboutinput {
@@ -269,7 +274,7 @@ footer {
     margin-top: 40px;
 }
 
-.aboutheader2 {
+.pharase {
     font-family: 'Damion', cursive;
     font-size: 40px;
     text-align: center;
@@ -292,7 +297,7 @@ footer {
 .aboutnumber {
     font-size: 200px;
     color: #336677;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .aboutext {
@@ -320,9 +325,20 @@ footer {
     display: none;
 }
 
+.aboutheader2{
+    margin-left: 500px;
+    border-radius: 20px;
+    cursor: pointer;
+    height:40px;
+    font-size: 20px;
+    width:100px;
+    text-align:center;
+}
+
 .lastimg1 {
     border-radius: 50%;
     height: 120px;
+    margin-left: 80px;
 }
 
 .lastimg2{
@@ -341,14 +357,98 @@ footer {
     color: orangered;
     text-align: center;
 }
+.work{
+    margin-top:10px;
+}
+
+.products{
+ margin-top: 30px;
+}
+
+.product{
+    color:#2B2B2B;
+}
+
+.stars{
+    margin-left:80px;
+}
+
+.review{
+    margin-top:20px;
+}
+
+.roles{
+    width:500px;
+}
+
+.roles{
+    font-size:40px;
+    margin-left:400px;
+    font-family: 'Damion', cursive;
+}
 
 /* for mobile responsive */
+@media(max-width:500px) {
+    .roles {
+       margin-left: 20px;
+    }
+}
+
+@media(max-width:500px) {
+    .aboutbody2 {
+      background-color:#EEEEEE;
+    }
+}
+
+@media(max-width:500px) {
+    .changedimg {
+      margin-left:12px;
+    }
+}
+
+@media(max-width:500px) {
+    .pharase {
+       margin-top: 20px;
+    }
+}
+
+@media(max-width:500px) {
+    .roles2 {
+        text-align: center;
+    }
+}
 
 @media(max-width:500px) {
     .aboutform {
-        display: none;
+        border-radius: 25px;
+        text-align: center;
+        background-color: #D6D9AB;
+        width: 100%;
+        height: 150px;
+        margin-left:0px;
     }
 }
+
+@media(max-width:500px) {
+    .block {
+        margin-top:10px;
+        font-size:20px;
+    }
+}
+
+@media(max-width:500px) {
+    .vision{
+        font-size:20px;
+        width:200px;
+        height:50px;
+    }
+}  
+
+@media(max-width:500px) {
+    .aboutheader2{
+        margin-left:130px;
+    }
+}  
 
 @media(max-width:500px) {
     .hideimg {
@@ -427,14 +527,17 @@ footer {
 @media(max-width:500px) {
     .explore {
         width: 100%;
-        justify-content: space-evenly;
+        margin-left:0px;
+      
     }
 }
 
 @media(max-width:500px) {
     ul a {
-        font-size: 15px;
+        font-size: 17px;
         margin-left: 5px;
+        opacity:0.8;
+        
     }
 }
 
@@ -442,7 +545,7 @@ footer {
     .artistich2 {
         font-size: 25px;
         width: 100%;
-        margin-left: 70px;
+        margin-left:10px;
     }
 }
 
@@ -456,7 +559,14 @@ footer {
 
 @media(max-width:500px) {
     .headermb {
-        margin-left: 10px;
+        margin-left:5px;
+    }
+}
+
+@media(max-width:500px) {
+    .realpic {
+        margin-left:0px;
+        font-size: 25px;
     }
 }
 
@@ -464,15 +574,24 @@ footer {
     .aboutimg2 {
         height: 150px;
         width: 150px;
-        margin-left: 20px;
+        margin-left:15px;
+    }
+}
+
+@media(max-width:500px) {
+    .imgcontainer {
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        
     }
 }
 
 @media(max-width:500px) {
     .aboutpara {
-        height: 100px;
-        width: 100px;
-        margin-left: 50px;
+       
+        margin-left:35px;
+        
     }
 }
 
@@ -545,7 +664,8 @@ footer {
 
 @media(max-width:500px) {
     .button {
-        margin-left: 40px;
+        margin-left:100px;
+        width:140px;
     }
 }
 
@@ -563,7 +683,6 @@ footer {
         background-color: white;
     }
 }
-
 @media(max-width:500px) {
     .img1 {
         display: none;
@@ -587,7 +706,7 @@ footer {
 @media(max-width:500px) {
     .textcontent {
         width: 100%;
-        margin-top: 5px;
+        margin-top:10px;
     }
 }
 
