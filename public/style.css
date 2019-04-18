@@ -401,6 +401,12 @@ footer {
 }
 
 @media(max-width:500px) {
+    .changedimg {
+      margin-left:12px;
+    }
+}
+
+@media(max-width:500px) {
     .pharase {
        margin-top: 20px;
     }
