@@ -333,6 +333,7 @@ footer {
 .lastimg1 {
     border-radius: 50%;
     height: 120px;
+    margin-left: 80px;
 }
 
 .lastimg2{
@@ -355,6 +356,31 @@ footer {
     margin-top:10px;
 }
 
+.products{
+ margin-top: 30px;
+}
+
+.product{
+    color:#2B2B2B;
+}
+
+.stars{
+    margin-left:80px;
+}
+
+.review{
+    margin-top:20px;
+}
+
+.roles{
+    width:500px;
+}
+
+.roles{
+    font-size:40px;
+    margin-left:400px;
+    font-family: 'Damion', cursive;
+}
 
 /* for mobile responsive */
 
