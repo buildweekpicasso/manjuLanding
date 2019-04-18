@@ -230,7 +230,7 @@ footer {
 .channgeimg1 {
     width: 210px;
     height: 210px;
-    margin: 5px;
+    margin-left:10px;
 }
 
 .changedimg {
@@ -248,14 +248,11 @@ footer {
 }
 
 .backgroundimg1 {
-    /* height: 200px;
-      width: 100%;
-      border:2px solid green;
-      opacity:0.7; */
+   
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 200px;
+    height: 500px;
 }
 
 .header {
@@ -394,6 +391,58 @@ footer {
     }
 }
 
+
+
+@media(max-width:375px) {
+    .context{
+      margin-top:50px;
+      
+    }
+}
+@media(max-width:500px) {
+    .context{
+      margin-top:50px;
+      
+    }
+}
+@media(max-width:375px) {
+    .btn1{
+      height: 35px; 
+      font-size:15px; 
+    }
+}
+@media(max-width:500px) {
+    .btn1{
+      height: 35px; 
+      font-size:15px; 
+    }
+
+
+@media(max-width:375px) {
+    .input{
+      height:10px;
+      width:20px;
+      
+    }
+}
+@media(max-width:500px) {
+    .input{
+      height:10px;
+      width:20px;
+      
+    }
+}
+
+@media(max-width:500px) {
+    .backgroundimg1{
+       height:auto;
+    }
+}
+
+@media(max-width:375px){
+
+}
+
 @media(max-width:500px) {
     .aboutbody2 {
       background-color:#EEEEEE;
@@ -446,9 +495,18 @@ footer {
 
 @media(max-width:500px) {
     .aboutheader2{
-        margin-left:130px;
+        margin-left:120px;
+        background-color: black;
     }
 }  
+
+
+@media(max-width:375px) {
+    .aboutheader2{
+        margin-left:120px;
+        background-color: black;
+    }
+} 
 
 @media(max-width:500px) {
     .hideimg {
@@ -457,7 +515,7 @@ footer {
 }
 
 @media(max-width:500px) {
-    .backgroundimg1 {
+    .backgroundimg{
         height: 200px;
         width: 100%;
         margin-top: 150px;
@@ -508,6 +566,23 @@ footer {
         padding-left: 50px;
     }
 }
+@media(max-width:500px) {
+    .header2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        margin-top:40px;
+    }
+}
+
+@media(max-width:375px) {
+    .aboutnumber {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        margin-top: 40px;
+       margin-left: 0px;
+    }
+}
+
 
 @media(max-width:500px) {
     .second-row {
@@ -534,8 +609,17 @@ footer {
 
 @media(max-width:500px) {
     ul a {
-        font-size: 17px;
-        margin-left: 5px;
+        font-size: 16px;
+        margin-left: 4px;
+        opacity:0.8;
+        
+    }
+}
+
+@media(max-width:375px) {
+    ul a {
+        font-size: 14px;
+        margin-left: 4px;
         opacity:0.8;
         
     }
@@ -553,7 +637,14 @@ footer {
     .channgeimg1 {
         height: 170px;
         width: 170px;
-        margin-left: 5px;
+        margin-left: 4px;
+    }
+}
+@media(max-width:375px) {
+    .channgeimg1 {
+        height: 150px;
+        width: 150px;
+        margin-right:0px;
     }
 }
 
@@ -572,8 +663,8 @@ footer {
 
 @media(max-width:500px) {
     .aboutimg2 {
-        height: 150px;
-        width: 150px;
+        height: 120px;
+        width: 120px;
         margin-left:15px;
     }
 }
@@ -591,6 +682,15 @@ footer {
     .aboutpara {
        
         margin-left:35px;
+        
+    }
+}
+
+
+@media(max-width:375px) {
+    .aboutpara {
+       
+        margin-left:25px;
         
     }
 }
@@ -647,14 +747,7 @@ footer {
     }
 }
 
-@media(max-width:500px) {
-    .header2 {
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        font-size: 20px;
-        margin-top: 40px;
-    }
-}
+
 
 @media(max-width:500px) {
     .context1 {
@@ -685,18 +778,25 @@ footer {
 }
 @media(max-width:500px) {
     .img1 {
-        display: none;
+        width: 100%;
+        height: 350px;
+        border: 2px solid grey;
+    
     }
 }
 
 @media(max-width:500px) {
     .img2 {
-        display: none;
+       display:none;
+        width: 100%;
+        height: 350px;
+        border: 2px solid grey;
     }
 }
 
 @media(max-width:500px) {
     .img3 {
+        display:none;
         width: 100%;
         height: 350px;
         border: 2px solid grey;
@@ -724,5 +824,20 @@ footer {
         margin-left: 0px;
         height: 280px;
         border: 7px solid #2B2B2B
+    }
+}
+
+@media(max-width:375px) {
+    .imgclass1 {
+        width: 280px;
+        margin-left: 0px;
+        height: 280px;
+        border: 7px solid #2B2B2B
+    }
+}
+
+@media(max-width:375px) {
+    .roles {
+        margin-left: 15px;
     }
 }
