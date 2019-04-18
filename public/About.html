@@ -13,88 +13,125 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Damion|Montserrat:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="main.js"></script>
 </head>
 
-<body class= "container container-fluid aboutbody">
-    
+<body>
+  <div class="container aboutbody">
+    <div class=" carousel-inner">
+      <div class="carousel-item active ">
+      </div>
+      <header>
+        <nav class=" navbar navbar2 nav-bar-expand-md navbar-light black sticky-top container-fluid">
+          <div class="container-fluid ">
+            <a>
+              <h1 class="aboutnav">Picasso</h1>
+            </a>
+            <div class=" explore" id="navbarResponsive">
+              <ul>
+                <a class="bottom" href="index.html" class="anchor aboutanchor">Home</a>
+                <a href="About.html">About US</a>
+                <a class="button" href='https://picasso-frontend.netlify.com/signup'> <button
+                    class="btn btn-danger respbutton" type="button">Sign In</button></a>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="  context1">
+        <h2 class="header work">About US</h2>
 
-        <header>
-                <nav class="navbar nav-bar-expand-md navbar-light black sticky-top container-fluid">
-                  <div class="container-fluid ">
-                    <a>
-                      <h1 class ="aboutnav">Picasso</h1>
-                    </a>
-                    <div class=" explore" id="navbarResponsive">
-                      <ul>
-                        <a  href = "index.html" class="anchor aboutanchor">Home</a>
-                        <a href = "About.html">About US</a>
-                        <a class="button" href='https://picasso-frontend.netlify.com/signup'> <button
-                            class="btn btn-danger respbutton" type="button">Sign In</button></a>
-                      </ul>
-                    </div>
-                  </div>
-                </nav>
-              </header>
-              <div>
-              <div class = "container-fluid aboutpara1 ">
-                  <h2 class = "parabout">About US</h2>
-                  <p class = "paragraphabout">It is a long established fact that a reader will be distracted by the readable c
-                      ontent of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less 
-                      normal distribution of letters, as opposed to using 'Content here, content here', making it look like 
-                      readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default 
-                      model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various 
-                      versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the 
-                      like). ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of 
-                      classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor 
-                      at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a 
-                      Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the 
-                      undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" 
-                      (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics,
-                       very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes 
-                       from a line in section 1.10.32.
+      </div>
+    </div>
+    <div>
+      <div class="container-fluid aboutpara2 ">
+        <h2 class="aboutheader">WE LOVE WHAT WE DO</h2>
+        <h4 class="header4"> Our talented teams craft the best code and <br>design amazing user experiences for our
+          clients.</h4>
+      </div>
 
-                    </p>
-              </div>
+      <div class="aboutcontainer">
+        <div>
+          <h1 class="aboutnumber">*8</h1>
+        </div>
+        <div>
+          <p class="aboutext"> Team Member<br>We are team lead, UI Developers,UX developer,Backned Developer, Data
+            Scientist, front end Architect, Backned Architect Looking to join an amazing team with lots of perks? Look
+            no further!</p>
+        </div>
+      </div>
 
-              <div class = "aboutus container-fluid">
-                    <div>
-                      <img class = "aboutimg aboutimg2" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNlZ1ZMwIRAOFD3YWaTuBwVIErcj6si81DV8FxFaGwrwlKoQVU">
-                        
-                      <p class = "aboutpara">UI Designer</p>
-                    </div>
-            
-                    <div>
-                        <img  class = "aboutimg aboutimg2 "  src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo5ig6Q8aFemypcGqxn2Kv7rq4gwVxFqU8JntAxQ8jl4JFx7cXqA">
-                        <p class = "aboutpara">UX Designer</p>
-                      </div>
-            
-                      <div>
-                          <img  class = "aboutimg aboutimg2" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3PVono_Z4tJ6PUWNrY26RJktPU5PyW_2RJAzLR0ru5k_R8T7A">
-                          <p class = "aboutpara">Backned Designer</p>
-                         
-                        </div>
-                        <div>
-                            <img  class = "aboutimg aboutimg2" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJB-HGg_rwNbABCiKNykKpJd8stQztOTb7EYwxlnebO-BkZM2Qew">
-                            <p class = "aboutpara">Data Scientist</p>
-                        </div>
-      
-                        <div class="carousel captain context aboutform">
-                                <h2 class="header2 aboutheader2">Sign Up to get your perfect<br> Picazzo portait for free</h2>
-                                <div class = "form">
-                                <form action='https://picasso-frontend.netlify.com/signup'>
-                                  <input class="input aboutinput" type="email" name="email" placeholder="Email">
-                                  <button class="btn btn-danger btn-lg">Sign Up</button>
-                                </form>
-                              </div>
-                    </div>
+      <div class="container-fluid aboutform">
+        <div>
+          <h2 class="block">Join Our Team Today!</h2>
+        </div>
+        <div>
+          <form>
+            <input class="vision" type="textbox" name="textbox" placeholder="See our open position">
+          </form>
+        </div>
 
-                    <footer>
-                            <div class="wrapper">
-                                <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-google-plus"></i></a>
-                                <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-facebook-square"></i></a>
-                                <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-twitter-square"></i>
-                                </div>
-                   </footer>
-        
-                </div>    
+      </div>
+
+      <h2 class="aboutheader2"> Our Team</h2>
+      <div class="aboutus container-fluid articals">
+        <div class="imgcontainer">
+
+          <div>
+            <img class="aboutimg aboutimg2" src="thomas.jpg">
+            <p class="aboutpara">Team Lead</p>
+          </div>
+
+          <div>
+            <img class="aboutimg aboutimg2" src="Valerie Ogonor.jpg">
+            <p class="aboutpara">Data Scientist</p>
+          </div>
+
+          <div>
+            <img class="aboutimg aboutimg2" src="Dmitrity Kavyazin.png">
+            <P class="aboutpara">Data Scientist</P>
+          </div>
+
+          <div>
+            <img class="aboutimg aboutimg2" src="tashi.png">
+            <p class="aboutpara">User Interface Developer</p>
+          </div>
+
+          <div>
+            <img class="aboutimg aboutimg2" src="sHREYAS Jothish.jpg">
+            <p class="aboutpara">front end Architect</p>
+          </div>
+
+          <div>
+            <img class="aboutimg aboutimg2 " src="Matt Poloni.jpg">
+            <p class="aboutpara">UX Designer</p>
+          </div>
+
+          <div>
+            <img class="aboutimg aboutimg2" src="Petter Murphy.jpg">
+            <p class="aboutpara">Backned Architect</p>
+
+          </div>
+
+
+          <div>
+            <img class="aboutimg aboutimg2" src="manju.jpg">
+            <p class="aboutpara">UI Developer</p>
+          </div>
+        </div>
+
+
+      </div>
+
+      <footer>
+        <div class="wrapper">
+          <a target="_blank" href="www.google.com"><i class="fa fa-3x fa-google-plus"></i></a>
+          <a target="_blank" href="www.facebook.com"><i class="fa fa-3x fa-facebook-square"></i></a>
+          <a target="_blank" href="www.twitter.com"><i class="fa fa-3x fa-twitter-square"></i>
+        </div>
+      </footer>
+
+    </div>
+
+  </div>
 </body>

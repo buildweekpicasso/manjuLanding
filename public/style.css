@@ -1,5 +1,9 @@
-body {
-    background-color: #EEEEEE;  
+.mainpart {
+    background-color: #EEEEEE;
+}
+
+.aboutbody {
+    background-color: #EEEEEE;
 }
 
 h1 {
@@ -8,14 +12,16 @@ h1 {
     font-size: 60px;
 }
 
-ul a{
-    color: #2B2B2B;
-    font-size:18px;
+ul a {
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 .backgroundimg {
-    opacity: 0.7;
-    width: 100%
+    opacity: 0.8;
+    width: 100%;
+    height: 600px;
 }
 
 .anchor {
@@ -24,9 +30,14 @@ ul a{
     padding: 15px;
 }
 
-.context {
+.context1 {
     text-align: center;
-    margin-top: 250px;
+    margin-top: 40px;
+}
+
+.context {
+    margin-top: 200px;
+    text-align: center;
 }
 
 h2 {
@@ -58,9 +69,12 @@ input {
 .about {
     display: flex;
     justify-content: space-evenly;
-    opacity: 0.8;
+    opacity: 0.9;
     padding: 10px;
-    background-color: #112233;
+    /* background-color: #112233; */
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/8/8f/Pablo_Picasso%2C_1909-10%2C_Figure_dans_un_Fauteuil_%28Seated_Nude%2C_Femme_nue_assise%29%2C_oil_on_canvas%2C_92.1_x_73_cm%2C_Tate_Modern%2C_London.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .first-row {
@@ -73,10 +87,27 @@ input {
 .imgclass {
     /* width: 350px;
     height: 350px; */
-    width:420px;
-    height:380px;
-    border: 3px solid black;
-    margin-left: 90px;
+    width: 350px;
+    height: 320px;
+    border: 7px solid #2B2B2B;
+    margin-left: 150px;
+}
+
+.second-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgclass1 {
+    width: 350px;
+    height: 320px;
+    border: 7px solid #2B2B2B;
+}
+
+.textcontent1 {
+    margin-left: 120px;
+    margin-top: 25px;
+    width: 50%
 }
 
 .textcontent {
@@ -84,25 +115,12 @@ input {
     width: 50%
 }
 
-
-.aboutbody{
-   background-color:
-}
-
-.parabout{
-    margin-top:20px;
-    margin-left:400px;
-     color:black
-    
-}
-
-.paragraphabout{
-    color:black;
+.paragraphabout {
+    color: black;
     font-size: 20px;
-    
 }
 
-.aboutus{
+.aboutus {
     color: black;
     display: flex;
     flex-wrap: wrap;
@@ -111,105 +129,377 @@ input {
     margin-top: 20px;
 }
 
-.aboutimg{
+.aboutimg {
     border-radius: 60%;
 }
 
+.imgcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
-.aboutimg2{
-    width:250px;
-    height:250px;
+.aboutimg2 {
+    width: 150px;
+    height: 150px;
     border: 2px solid grey;
+    margin-left: 100px;
 }
 
-.aboutpara{
-    margin-left:60px;
+.aboutpara {
+    margin-left: 100px;
 }
 
-.aboutinput{
-    background-color:white; 
+.aboutinput {
+    background-color: white;
+    width: 250px;
 }
 
-
-h1.aboutnav{
-    color: #2B2B2B;
+.mainheader {
+    color: #AA2233;
 }
 
-footer{
+footer {
     text-align: center;
-    margin-right:10px;
-    background-color:#2B2B2B;
-    width:100%
+    margin-right: 10px;
+    background-color: black;
+    
+    width: 100%;
+    margin-top: 20px;
 }
+
 .wrapper {
     display: inline-flex;
     justify-content: center;
-  }
-  .wrapper i {
+}
+
+.wrapper i {
     padding: 10px;
     text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
     transition: all ease-in-out 150ms;
-  }
-  .wrapper a:nth-child(1) {
+}
+
+.wrapper a:nth-child(1) {
     color: #dd4b39;
-  }
-  .wrapper a:nth-child(2) {
+}
+
+.wrapper a:nth-child(2) {
     color: #4867AA;
-  }
-  .wrapper a:nth-child(3) {
+}
+
+.wrapper a:nth-child(3) {
     color: #1DA1F2;
-  }
-  .wrapper i:hover {
+}
+
+.wrapper i:hover {
     margin-top: -3px;
     text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
-  }
+}
 
-  .aboutform{
-      margin-top:20px;
-      margin-bottom:30px;
-    
-  }
+.wrapper2{
+    font-size:45px;
+    color: #3C5A99;
+}
 
-  .aboutheader2{
-      font-size:30px;
-  }
+.aboutform {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
-/* for mobile responsive */
-@media(max-width:500px) {
-    .aboutform {
-        display:none;
-    }
+.navbar2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4kudteqL0fZmhhdZOUjv51hGYxLdWqg4ONGGb07nIKxosx2bE");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header2 {
+    color: #EEEEEE;
+    margin-top: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.aboutheader2 {
+    font-size: 30px;
+}
+
+.channgeimg1 {
+    width: 210px;
+    height: 210px;
+    margin: 5px;
+}
+
+.changedimg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.artistich2 {
+    font-size: 40px;
+    margin-top: 20px;
+    /* margin-left:280px; */
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.backgroundimg1 {
+    /* height: 200px;
+      width: 100%;
+      border:2px solid green;
+      opacity:0.7; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.header {
+    color: #2B2B2B;
+    font-size: 50px;
+}
+
+.aboutnav {
+    color: #AA2233;
+}
+
+.aboutheader {
+    font-family: 'Damion', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.aboutheader2 {
+    font-family: 'Damion', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.header4 {
+    text-align: center;
+    font-family: 'Damion', cursive;
+    color: #2B2B2B;
+}
+
+.aboutcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutnumber {
+    font-size: 200px;
+    color: #336677;
+    margin-top: 20px;
+}
+
+.aboutext {
+    width: 250px;
+    margin-left: 60px;
+    margin-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutform {
+    border-radius: 25px;
+    text-align: center;
+    background-color: #D6D9AB;
+    width: 1000px;
+    height: 250px;
+    margin-left: 80px;
+}
+
+.block {
+    color: black;
+    padding-top: 50px;
+}
+
+.articals {
+    display: none;
+}
+
+.lastimg1 {
+    border-radius: 50%;
+    height: 120px;
+}
+
+.lastimg2{
+    height:120px;
+    width:120px;
+}
+
+.stars{
+    color:orange;
 }
 
 
+.top-right {
+    font-size: 35px;
+    margin-top: 30px;
+    color: orangered;
+    text-align: center;
+}
+
+/* for mobile responsive */
+
+@media(max-width:500px) {
+    .aboutform {
+        display: none;
+    }
+}
+
+@media(max-width:500px) {
+    .hideimg {
+        display: none;
+    }
+}
+
+@media(max-width:500px) {
+    .backgroundimg1 {
+        height: 200px;
+        width: 100%;
+        margin-top: 150px;
+    }
+}
+
+@media(max-width:500px) {
+    .work {
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        color: #2B2B2B;
+    }
+}
+
+@media(max-width:500px) {
+    ul.bottom {
+        height: 200px;
+        width: 100%;
+        margin-top: 150px;
+        margin-right: 70px;
+    }
+}
+
+@media(max-width:500px) {
+    .aboutheader {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:500px) {
+    .header4 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:500px) {
+    .aboutnumber {
+        font-size: 130px;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+}
+
+@media(max-width:500px) {
+    .aboutext {
+        margin-left: 10px;
+        padding-left: 50px;
+    }
+}
+
+@media(max-width:500px) {
+    .second-row {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+}
+
+@media(max-width:500px) {
+    .textcontent1 {
+        width: 100%;
+        margin-left: 0;
+        padding: 5px;
+    }
+}
+
+@media(max-width:500px) {
+    .explore {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width:500px) {
+    ul a {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+}
+
+@media(max-width:500px) {
+    .artistich2 {
+        font-size: 25px;
+        width: 100%;
+        margin-left: 70px;
+    }
+}
+
+@media(max-width:500px) {
+    .channgeimg1 {
+        height: 170px;
+        width: 170px;
+        margin-left: 5px;
+    }
+}
+
+@media(max-width:500px) {
+    .headermb {
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:500px) {
+    .aboutimg2 {
+        height: 150px;
+        width: 150px;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:500px) {
+    .aboutpara {
+        height: 100px;
+        width: 100px;
+        margin-left: 50px;
+    }
+}
 
 @media(max-width:500px) {
     .aboutbody {
-        height: 30%
+        height: 20px;
     }
 }
 
 @media(max-width:500px) {
     .form {
-        height:40px;
+        height: 40px;
         margin-bottom: 50px;
     }
 }
 
-
 @media(max-width:500px) {
     .parabout {
-        margin-left:30px;
+        margin-left: 30px;
         margin-top: 20px;
-        font-size:30px;
-
+        font-size: 30px;
     }
 }
 
 @media(max-width:500px) {
     .paragraphabout {
-        font-size:15px;
-
+        font-size: 15px;
     }
 }
 
@@ -221,28 +511,41 @@ footer{
 
 @media(max-width:500px) {
     .aboutus {
-        margin-top:20px;
+        margin-top: 20px;
     }
 }
 
+@media(max-width:500px) {
+    .mainheader {
+        margin-left: 90px;
+    }
+}
+
+@media(max-width:500px) {
+    .backgroundimg {
+        height: 380px;
+        width: 100%
+    }
+}
 
 @media(max-width:500px) {
     .header2 {
-        color: #2B2B2B;
         font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 20px;
+        margin-top: 40px;
     }
 }
 
 @media(max-width:500px) {
-    .context {
-        margin-top:250px;
+    .context1 {
+        margin-top: 40px;
     }
 }
 
 @media(max-width:500px) {
     .button {
         margin-left: 40px;
-        
     }
 }
 
@@ -255,33 +558,9 @@ footer{
 }
 
 @media(max-width:500px) {
-    .header2 {
-        font-size: 20px;
-    }
-}
-
-@media(max-width:500px) {
-    .header2 {
-        font-size: 20px;
-    }
-}
-
-@media(max-width:500px) {
-    .respbutton {
-        margin-right: 150px;
-    }
-}
-
-@media(max-width:500px) {
     .input {
         width: 65%;
         background-color: white;
-    }
-}
-
-@media(max-width:500px) {
-    .explore {
-        margin-top: 5px;
     }
 }
 
@@ -300,8 +579,8 @@ footer{
 @media(max-width:500px) {
     .img3 {
         width: 100%;
-        height: 200px;
-        background-color: red;
+        height: 350px;
+        border: 2px solid grey;
     }
 }
 
@@ -314,8 +593,17 @@ footer{
 
 @media(max-width:500px) {
     .imgclass {
-        margin: 0;
-        height: 250px;
-        width: 100%;
+        margin-left: 0px;
+        height: 280px;
+        border: 7px solid #2B2B2B
+    }
+}
+
+@media(max-width:500px) {
+    .imgclass1 {
+        width: 310px;
+        margin-left: 0px;
+        height: 280px;
+        border: 7px solid #2B2B2B
     }
 }
