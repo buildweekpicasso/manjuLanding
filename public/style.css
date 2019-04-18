@@ -111,7 +111,7 @@ input {
 }
 
 .textcontent {
-    margin-top: 50px;
+    margin-top:10px;
     width: 50%
 }
 
@@ -143,11 +143,11 @@ input {
     width: 150px;
     height: 150px;
     border: 2px solid grey;
-    margin-left: 100px;
+    margin-left:100px;
 }
 
 .aboutpara {
-    margin-left: 100px;
+    margin-left:120px;
 }
 
 .aboutinput {
@@ -269,7 +269,7 @@ footer {
     margin-top: 40px;
 }
 
-.aboutheader2 {
+.pharase {
     font-family: 'Damion', cursive;
     font-size: 40px;
     text-align: center;
@@ -292,7 +292,7 @@ footer {
 .aboutnumber {
     font-size: 200px;
     color: #336677;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .aboutext {
@@ -320,6 +320,16 @@ footer {
     display: none;
 }
 
+.aboutheader2{
+    margin-left: 500px;
+    border-radius: 20px;
+    cursor: pointer;
+    height:40px;
+    font-size: 20px;
+    width:100px;
+    text-align:center;
+}
+
 .lastimg1 {
     border-radius: 50%;
     height: 120px;
@@ -341,14 +351,44 @@ footer {
     color: orangered;
     text-align: center;
 }
+.work{
+    margin-top:10px;
+}
+
 
 /* for mobile responsive */
 
 @media(max-width:500px) {
     .aboutform {
-        display: none;
+        border-radius: 25px;
+        text-align: center;
+        background-color: #D6D9AB;
+        width: 100%;
+        height: 150px;
+        margin-left:0px;
     }
 }
+
+@media(max-width:500px) {
+    .block {
+        margin-top:10px;
+        font-size:20px;
+    }
+}
+
+@media(max-width:500px) {
+    .vision{
+        font-size:20px;
+        width:200px;
+        height:50px;
+    }
+}  
+
+@media(max-width:500px) {
+    .aboutheader2{
+        margin-left:130px;
+    }
+}  
 
 @media(max-width:500px) {
     .hideimg {
@@ -442,7 +482,7 @@ footer {
     .artistich2 {
         font-size: 25px;
         width: 100%;
-        margin-left: 70px;
+        margin-left:10px;
     }
 }
 
@@ -456,7 +496,14 @@ footer {
 
 @media(max-width:500px) {
     .headermb {
-        margin-left: 10px;
+        margin-left:5px;
+    }
+}
+
+@media(max-width:500px) {
+    .realpic {
+        margin-left:0px;
+        font-size: 25px;
     }
 }
 
@@ -464,15 +511,24 @@ footer {
     .aboutimg2 {
         height: 150px;
         width: 150px;
-        margin-left: 20px;
+        margin-left:15px;
+    }
+}
+
+@media(max-width:500px) {
+    .imgcontainer {
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        
     }
 }
 
 @media(max-width:500px) {
     .aboutpara {
-        height: 100px;
-        width: 100px;
-        margin-left: 50px;
+       
+        margin-left:35px;
+        
     }
 }
 
@@ -587,7 +643,7 @@ footer {
 @media(max-width:500px) {
     .textcontent {
         width: 100%;
-        margin-top: 5px;
+        margin-top:10px;
     }
 }
 
