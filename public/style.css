@@ -17,9 +17,7 @@ ul a {
     font-size: 20px;
     margin-left: 10px;
     text-decoration: none !important;
-  
 }
-
 
 .backgroundimg {
     opacity: 0.8;
@@ -78,8 +76,7 @@ input {
     background-image: url("https://upload.wikimedia.org/wikipedia/en/8/8f/Pablo_Picasso%2C_1909-10%2C_Figure_dans_un_Fauteuil_%28Seated_Nude%2C_Femme_nue_assise%29%2C_oil_on_canvas%2C_92.1_x_73_cm%2C_Tate_Modern%2C_London.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity:0.8;
-    
+    opacity: 0.8;
     filter: alpha(opacity=50);
 }
 
@@ -91,8 +88,6 @@ input {
 }
 
 .imgclass {
-    /* width: 350px;
-    height: 350px; */
     width: 350px;
     height: 320px;
     border: 7px solid #2B2B2B;
@@ -117,7 +112,7 @@ input {
 }
 
 .textcontent {
-    margin-top:10px;
+    margin-top: 10px;
     width: 50%
 }
 
@@ -149,11 +144,11 @@ input {
     width: 150px;
     height: 150px;
     border: 2px solid grey;
-    margin-left:100px;
+    margin-left: 100px;
 }
 
 .aboutpara {
-    margin-left:120px;
+    margin-left: 120px;
 }
 
 .aboutinput {
@@ -169,7 +164,6 @@ footer {
     text-align: center;
     margin-right: 10px;
     background-color: black;
-    
     width: 100%;
     margin-top: 20px;
 }
@@ -202,8 +196,8 @@ footer {
     text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
 }
 
-.wrapper2{
-    font-size:45px;
+.wrapper2 {
+    font-size: 45px;
     color: #3C5A99;
 }
 
@@ -231,17 +225,14 @@ footer {
 .channgeimg1 {
     width: 210px;
     height: 210px;
-    margin-left:10px;   
-
-}
-.rowimg{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    
+    margin-left: 10px;
 }
 
-
+.rowimg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .changedimg {
     display: flex;
@@ -258,12 +249,11 @@ footer {
 }
 
 .backgroundimg1 {
-   
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 600px;
-    opacity:0.8;
+    opacity: 0.8;
 }
 
 .header {
@@ -333,14 +323,14 @@ footer {
     display: none;
 }
 
-.aboutheader2{
+.aboutheader2 {
     margin-left: 500px;
     border-radius: 20px;
     cursor: pointer;
-    height:40px;
+    height: 40px;
     font-size: 20px;
-    width:100px;
-    text-align:center;
+    width: 100px;
+    text-align: center;
 }
 
 .lastimg1 {
@@ -349,15 +339,14 @@ footer {
     margin-left: 80px;
 }
 
-.lastimg2{
-    height:120px;
-    width:120px;
+.lastimg2 {
+    height: 120px;
+    width: 120px;
 }
 
-.stars{
-    color:orange;
+.stars {
+    color: orange;
 }
-
 
 .top-right {
     font-size: 35px;
@@ -365,490 +354,423 @@ footer {
     color: orangered;
     text-align: center;
 }
-.work{
-    margin-top:10px;
+
+.work {
+    margin-top: 10px;
 }
 
-.products{
- margin-top: 30px;
+.products {
+    margin-top: 30px;
 }
 
-.product{
-    color:#2B2B2B;
+.product {
+    color: #2B2B2B;
 }
 
-.stars{
-    margin-left:80px;
+.stars {
+    margin-left: 80px;
 }
 
-.review{
-    margin-top:20px;
+.review {
+    margin-top: 20px;
 }
 
-.roles{
-    width:500px;
+.roles {
+    width: 500px;
 }
 
-.roles{
-    font-size:40px;
-    margin-left:400px;
+.roles {
+    font-size: 40px;
+    margin-left: 400px;
     font-family: 'Damion', cursive;
 }
 
 /* for mobile responsive */
+
 @media(max-width:500px) {
     .roles {
-       margin-left: 20px;
+        margin-left: 20px;
     }
 }
-
-
 
 @media(max-width:375px) {
-    .context{
-      margin-top:50px;
-      
-    }
-}
-@media(max-width:500px) {
-    .context{
-      margin-top:50px;
-      
-    }
-}
-@media(max-width:375px) {
-    .btn1{
-      height: 35px; 
-      font-size:15px; 
-    }
-}
-@media(max-width:500px) {
-    .btn1{
-      height: 35px; 
-      font-size:15px; 
-    }
-
-
-@media(max-width:375px) {
-    .input{
-      height:10px;
-      width:20px;
-      
-    }
-}
-@media(max-width:500px) {
-    .input{
-      height:10px;
-      width:20px;
-      
-    }
-}
-
-@media(max-width:500px) {
-    .backgroundimg1{
-       height:auto;
-    }
-}
-
-@media(max-width:375px){
-
-}
-
-@media(max-width:500px) {
-    .aboutbody2 {
-      background-color:#EEEEEE;
-    }
-}
-
-@media(max-width:500px) {
-    .changedimg {
-      margin-left:12px;
-    }
-}
-
-@media(max-width:500px) {
-    .pharase {
-       margin-top: 20px;
-    }
-}
-
-@media(max-width:500px) {
-    .roles2 {
-        text-align: center;
-    }
-}
-
-@media(max-width:500px) {
-    .aboutform {
-        border-radius: 25px;
-        text-align: center;
-        background-color: #D6D9AB;
-        width: 100%;
-        height: 150px;
-        margin-left:0px;
-    }
-}
-
-@media(max-width:500px) {
-    .block {
-        margin-top:10px;
-        font-size:20px;
-    }
-}
-
-@media(max-width:500px) {
-    .vision{
-        font-size:20px;
-        width:200px;
-        height:50px;
-    }
-}  
-
-@media(max-width:500px) {
-    .aboutheader2{
-        margin-left:120px;
-        background-color: black;
-    }
-}  
-
-
-@media(max-width:375px) {
-    .aboutheader2{
-        margin-left:120px;
-        background-color: black;
-    }
-} 
-
-@media(max-width:500px) {
-    .hideimg {
-        display: none;
-    }
-}
-
-@media(max-width:500px) {
-    .backgroundimg{
-        height: 200px;
-        width: 100%;
-        margin-top: 150px;
-    }
-}
-
-@media(max-width:500px) {
-    .work {
-        font-size: 25px;
-        font-family: 'Montserrat', sans-serif;
-        color: #2B2B2B;
-    }
-}
-
-@media(max-width:500px) {
-    ul.bottom {
-        height: 200px;
-        width: 100%;
-        margin-top: 150px;
-        margin-right: 70px;
-    }
-}
-
-@media(max-width:500px) {
-    .aboutheader {
-        font-size: 25px;
-    }
-}
-
-@media(max-width:500px) {
-    .header4 {
-        font-size: 20px;
-        margin-top: 10px;
-    }
-}
-
-@media(max-width:500px) {
-    .aboutnumber {
-        font-size: 130px;
+    .context {
         margin-top: 50px;
-        margin-left: 0;
     }
 }
 
 @media(max-width:500px) {
-    .aboutext {
-        margin-left: 10px;
-        padding-left: 50px;
-    }
-}
-@media(max-width:500px) {
-    .header2 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        margin-top:40px;
+    .context {
+        margin-top: 50px;
     }
 }
 
 @media(max-width:375px) {
-    .aboutnumber {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 80px;
-        margin-top: 90px;
-       margin-left: 0px;
-    }
-}
-
-
-@media(max-width:500px) {
-    .second-row {
-        flex-direction: column-reverse;
-        justify-content: center;
-    }
-}
-
-@media(max-width:500px) {
-    .textcontent1 {
-        width: 100%;
-        margin-left: 0;
-        padding: 5px;
-    }
-}
-
-@media(max-width:500px) {
-    .explore {
-        width: 100%;
-        margin-left:0px;
-      
-    }
-}
-
-@media(max-width:500px) {
-    ul a {
-        font-size: 16px;
-        margin-left: 4px;
-        opacity:0.8;
-        
-    }
-}
-
-@media(max-width:375px) {
-    ul a {
-        font-size: 14px;
-        margin-left: 4px;
-        opacity:0.8;
-        
-    }
-}
-
-@media(max-width:500px) {
-    .artistich2 {
-        font-size: 25px;
-        width: 100%;
-        margin-left:10px;
-    }
-}
-
-@media(max-width:500px) {
-    .channgeimg1 {
-        height: 170px;
-        width: 170px;
-        margin-left: 4px;
-    }
-}
-@media(max-width:375px) {
-    .channgeimg1 {
-        height: 150px;
-        width: 150px;
-        margin-right:0px;
-    }
-}
-
-@media(max-width:500px) {
-    .headermb {
-        margin-left:5px;
-    }
-}
-
-@media(max-width:500px) {
-    .realpic {
-        margin-left:0px;
-        font-size: 25px;
-    }
-}
-
-@media(max-width:500px) {
-    .aboutimg2 {
-        height: 120px;
-        width: 120px;
-        margin-left:15px;
-    }
-}
-
-@media(max-width:500px) {
-    .imgcontainer {
-        display:flex;
-        flex-direction: row;
-        flex-wrap:wrap;
-        
-    }
-}
-
-@media(max-width:500px) {
-    .aboutpara {
-       
-        margin-left:35px;
-        
-    }
-}
-
-
-@media(max-width:375px) {
-    .aboutpara {
-       
-        margin-left:25px;
-        
-    }
-}
-
-@media(max-width:500px) {
-    .aboutbody {
-        height: 20px;
-    }
-}
-
-@media(max-width:500px) {
-    .form {
-        height: 40px;
-        margin-bottom: 50px;
-    }
-}
-
-@media(max-width:500px) {
-    .parabout {
-        margin-left: 30px;
-        margin-top: 20px;
-        font-size: 30px;
-    }
-}
-
-@media(max-width:500px) {
-    .paragraphabout {
+    .btn1 {
+        height: 35px;
         font-size: 15px;
     }
 }
 
 @media(max-width:500px) {
-    .container {
-        width: 100%
+    .btn1 {
+        height: 35px;
+        font-size: 15px;
     }
-}
-
-@media(max-width:500px) {
-    .aboutus {
-        margin-top: 20px;
+    @media(max-width:375px) {
+        .input {
+            height: 10px;
+            width: 20px;
+        }
     }
-}
-
-@media(max-width:500px) {
-    .mainheader {
-        margin-left: 90px;
+    @media(max-width:500px) {
+        .input {
+            height: 10px;
+            width: 20px;
+        }
     }
-}
-
-@media(max-width:500px) {
-    .backgroundimg {
-        height: 380px;
-        width: 100%
+    @media(max-width:500px) {
+        .backgroundimg1 {
+            height: auto;
+        }
     }
-}
-
-
-
-@media(max-width:500px) {
-    .context1 {
-        margin-top: 40px;
+    @media(max-width:375px) {}
+    @media(max-width:500px) {
+        .aboutbody2 {
+            background-color: #EEEEEE;
+        }
     }
-}
+    @media(max-width:500px) {
+        .changedimg {
+            margin-left:15px;
+            margin-bottom:10px;
 
-@media(max-width:500px) {
-    .button {
-        margin-left:100px;
-        width:140px;
+            
+           
+        }
     }
-}
-
-@media(max-width:500px) {
-    h1 {
-        margin-left: 50px;
-        font-size: 50px;
-        margin-bottom: 5px;
+    @media(max-width:500px) {
+        .pharase {
+            margin-top: 20px;
+        }
     }
-}
-
-@media(max-width:500px) {
-    .input {
-        width: 65%;
-        background-color: white;
+    @media(max-width:500px) {
+        .roles2 {
+            text-align: center;
+        }
     }
-}
-@media(max-width:500px) {
-    .img1 {
-        width: 100%;
-        height: 350px;
-        border: 2px solid grey;
-    
+    @media(max-width:500px) {
+        .aboutform {
+            border-radius: 25px;
+            text-align: center;
+            background-color: #D6D9AB;
+            width: 100%;
+            height: 150px;
+            margin-left: 0px;
+        }
     }
-}
-
-@media(max-width:500px) {
-    .img2 {
-       display:none;
-        width: 100%;
-        height: 350px;
-        border: 2px solid grey;
+    @media(max-width:500px) {
+        .block {
+            margin-top: 10px;
+            font-size: 20px;
+        }
     }
-}
-
-@media(max-width:500px) {
-    .img3 {
-        display:none;
-        width: 100%;
-        height: 350px;
-        border: 2px solid grey;
+    @media(max-width:500px) {
+        .vision {
+            font-size: 20px;
+            width: 200px;
+            height: 50px;
+        }
     }
-}
-
-@media(max-width:500px) {
-    .textcontent {
-        width: 100%;
-        margin-top:10px;
+    @media(max-width:500px) {
+        .aboutheader2 {
+            margin-left: 120px;
+            background-color: black;
+        }
     }
-}
-
-@media(max-width:500px) {
-    .imgclass {
-        margin-left: 0px;
-        height: 280px;
-        border: 7px solid #2B2B2B
+    @media(max-width:375px) {
+        .aboutheader2 {
+            margin-left: 120px;
+            background-color: black;
+        }
     }
-}
-
-@media(max-width:500px) {
-    .imgclass1 {
-        width: 310px;
-        margin-left: 0px;
-        height: 280px;
-        border: 7px solid #2B2B2B
+    @media(max-width:500px) {
+        .hideimg {
+            display: none;
+        }
     }
-}
-
-@media(max-width:375px) {
-    .imgclass1 {
-        width: 280px;
-        margin-left: 0px;
-        height: 280px;
-        border: 7px solid #2B2B2B
+    @media(max-width:500px) {
+        .backgroundimg {
+            height: 200px;
+            width: 100%;
+            margin-top: 150px;
+        }
     }
-}
-
-@media(max-width:375px) {
-    .roles {
-        margin-left: 15px;
+    @media(max-width:500px) {
+        .work {
+            font-size: 25px;
+            font-family: 'Montserrat', sans-serif;
+            color: #2B2B2B;
+        }
     }
-}
+    @media(max-width:500px) {
+        ul.bottom {
+            height: 200px;
+            width: 100%;
+            margin-top: 150px;
+            margin-right: 70px;
+        }
+    }
+    @media(max-width:500px) {
+        .aboutheader {
+            font-size: 25px;
+        }
+    }
+    @media(max-width:500px) {
+        .header4 {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    }
+    @media(max-width:500px) {
+        .aboutnumber {
+            font-size: 130px;
+            margin-top: 50px;
+            margin-left: 0;
+        }
+    }
+    @media(max-width:500px) {
+        .aboutext {
+            margin-left: 10px;
+            padding-left: 50px;
+        }
+    }
+    @media(max-width:500px) {
+        .header2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            margin-top: 40px;
+        }
+    }
+    @media(max-width:375px) {
+        .aboutnumber {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 80px;
+            margin-top: 90px;
+            margin-left: 0px;
+        }
+    }
+    @media(max-width:500px) {
+        .second-row {
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+    }
+    @media(max-width:500px) {
+        .textcontent1 {
+            width: 100%;
+            margin-left: 0;
+            padding: 5px;
+        }
+    }
+    @media(max-width:500px) {
+        .explore {
+            width: 100%;
+            margin-left: 0px;
+        }
+    }
+    @media(max-width:500px) {
+        ul a {
+            font-size: 16px;
+            margin-left: 4px;
+            opacity: 0.8;
+        }
+    }
+    @media(max-width:375px) {
+        ul a {
+            font-size: 14px;
+            margin-left: 4px;
+            opacity: 0.8;
+        }
+    }
+    @media(max-width:500px) {
+        .artistich2 {
+            font-size: 25px;
+            width: 100%;
+            margin-left: 10px;
+        }
+    }
+    @media(max-width:500px) {
+        .channgeimg1 {
+            height: 170px;
+            width: 170px;
+            margin-left: 4px;
+        }
+    }
+    @media(max-width:375px) {
+        .channgeimg1 {
+            height: 150px;
+            width: 150px;
+            margin-right: 0px;
+        }
+    }
+    @media(max-width:500px) {
+        .headermb {
+            margin-left: 5px;
+        }
+    }
+    @media(max-width:500px) {
+        .realpic {
+            margin-left: 0px;
+            font-size: 25px;
+        }
+    }
+    @media(max-width:500px) {
+        .aboutimg2 {
+            height: 120px;
+            width: 120px;
+            margin-left: 15px;
+        }
+    }
+    @media(max-width:500px) {
+        .imgcontainer {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+    @media(max-width:500px) {
+        .aboutpara {
+            margin-left: 35px;
+        }
+    }
+    @media(max-width:375px) {
+        .aboutpara {
+            margin-left: 25px;
+        }
+    }
+    @media(max-width:500px) {
+        .aboutbody {
+            height: 20px;
+        }
+    }
+    @media(max-width:500px) {
+        .form {
+            height: 40px;
+            margin-bottom: 50px;
+        }
+    }
+    @media(max-width:500px) {
+        .parabout {
+            margin-left: 30px;
+            margin-top: 20px;
+            font-size: 30px;
+        }
+    }
+    @media(max-width:500px) {
+        .paragraphabout {
+            font-size: 15px;
+        }
+    }
+    @media(max-width:500px) {
+        .container {
+            width: 100%
+        }
+    }
+    @media(max-width:500px) {
+        .aboutus {
+            margin-top: 20px;
+        }
+    }
+    @media(max-width:500px) {
+        .mainheader {
+            margin-left: 90px;
+        }
+    }
+    @media(max-width:500px) {
+        .backgroundimg {
+            height: 380px;
+            width: 100%
+        }
+    }
+    @media(max-width:500px) {
+        .context1 {
+            margin-top: 40px;
+        }
+    }
+    @media(max-width:500px) {
+        .button {
+            margin-left: 100px;
+            width: 140px;
+        }
+    }
+    @media(max-width:500px) {
+        h1 {
+            margin-left: 50px;
+            font-size: 50px;
+            margin-bottom: 5px;
+        }
+    }
+    @media(max-width:500px) {
+        .input {
+            width: 65%;
+            background-color: white;
+        }
+    }
+    @media(max-width:500px) {
+        .img1 {
+            width: 100%;
+            height: 350px;
+            border: 2px solid grey;
+        }
+    }
+    @media(max-width:500px) {
+        .img2 {
+            display: none;
+            width: 100%;
+            height: 350px;
+            border: 2px solid grey;
+        }
+    }
+    @media(max-width:500px) {
+        .img3 {
+            display: none;
+            width: 100%;
+            height: 350px;
+            border: 2px solid grey;
+        }
+    }
+    @media(max-width:500px) {
+        .textcontent {
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+    @media(max-width:500px) {
+        .imgclass {
+            margin-left: 0px;
+            height: 280px;
+            border: 7px solid #2B2B2B
+        }
+    }
+    @media(max-width:500px) {
+        .imgclass1 {
+            width: 310px;
+            margin-left: 0px;
+            height: 280px;
+            border: 7px solid #2B2B2B
+        }
+    }
+    @media(max-width:375px) {
+        .imgclass1 {
+            width: 280px;
+            margin-left: 0px;
+            height: 280px;
+            border: 7px solid #2B2B2B
+        }
+    }
+    @media(max-width:375px) {
+        .roles {
+            margin-left: 15px;
+        }
+    }
