@@ -442,7 +442,7 @@ footer {
     }
     @media(max-width:500px) {
         .changedimg {
-            margin-left:15px;
+            margin-left:10px;
             margin-bottom:10px;
 
             
@@ -499,6 +499,13 @@ footer {
             display: none;
         }
     }
+
+    @media(max-width:500px) {
+        .product {
+            margin-left:10px;
+        }
+    }
+
     @media(max-width:500px) {
         .backgroundimg {
             height: 200px;
@@ -652,8 +659,13 @@ footer {
     @media(max-width:500px) {
         .aboutbody {
             height: 20px;
+            width:100%;
         }
     }
+
+   
+
+    
     @media(max-width:500px) {
         .form {
             height: 40px;
