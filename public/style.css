@@ -262,7 +262,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 600px;
     opacity:0.8;
 }
 
@@ -588,8 +588,8 @@ footer {
 @media(max-width:375px) {
     .aboutnumber {
         font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        margin-top: 40px;
+        font-size: 80px;
+        margin-top: 90px;
        margin-left: 0px;
     }
 }
